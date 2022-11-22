@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    color: #fff;
+}
+
+body {
+    min-height: 100vh;
+    background-color: rgba(238, 238, 238, 0.922);
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+  padding: 1rem 0.5rem;
+}
+
+section {
+    width: 100%;
+    max-width: 420px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1rem;
+    background-color: rgb(107, 0, 91);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    padding-bottom: 1rem;
+}
+
+a, a:visited {
+    color: #fff;
+}
+
+input[type="text"],
+input[type="password"],
+button,
+textarea {
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}
+
+label,
+button {
+  margin-top: 1rem;
+}
+
+button {
+  padding: 0.5rem;
+}
+
+button:hover{
+    background-color:rgba(0,0,0,0.4);
+    color:white;
+}
+
+.instructions {
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+    background: #000;
+    color: #fff;
+    padding: 0.25rem;
+    position: relative;
+    bottom: -10px;
+}
+
+.instructions > svg {
+    margin-right: 0.25rem;
+}
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+
+.hide {
+    display: none;
+}
+
+.valid {
+    color: limegreen;
+    margin-left: 0.25rem;
+}
+
+.invalid {
+    color: red;
+    margin-left: 0.25rem;
+}
+
+.errmsg {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.line {
+    display: inline-block;
+}
+
+small{
+    color: red;
+}
+
+.heading1{
+    color: #000;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.heading2{
+    color: purple;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.xs-shadow {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  height: 625px;
+}
+.card{
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.xs-shadow:hover {
+  box-shadow: 0 14px 28px
+  rgba(0,0,0,0.25), 0 10px 10px
+  rgba(0,0,0,0.22);
+}
+
+.card-header{
+    font-size: 15px;
+}
+
+.card-description{
+    font-size: 8px;
+}
+
+.Button{
+    color: purple;
+}
+
+a{
+    text-decoration: none;
+}
